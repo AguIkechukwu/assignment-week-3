@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms and input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="header"> UPSKILL SURVEY FORM TASK </h1>
+        <div class="container">
+            <form action="" method="post">
+                <div class="labels">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                    <br>
+                </div>
+                
+                <div class="labels">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                    <br>
+                </div>
+                
+                <div class="labels">
+                    <label for="age">Age</label>
+                    <input type="text" id="age" placeholder="Enter your age" required>
+                    <br>
+                </div>
+
+                <div class="labels">
+                    <label for="phone">Phone no</label>
+                    <input type="tel" id="phone" placeholder="Enter your phone numbrer" required>
+                    <br>
+                </div>
+
+                <div class="labels">
+                    <label for="user-occupation">What best describes you?</label><br>
+                    <div>
+                        <select name="user-occupation" id="user-occupation">
+                            <option value="" disabled selected>Select option</option>
+                            <option value="student">Student</option>
+                            <option value="Graduate">Graduate</option>
+                            <option value="Employed">Employed</option>
+                            <option value="Self-employed">Self-Employed</option>
+                            <option value="Skilled">Skilled</option>
+                            <option value="Entreprenuer">Entrepreneur</option>
+                        </select>
+                    </div> 
+                </div>
+                
+                <div class="labels">
+                    <label for="">would you recommend Genesys Upskill to a friend</label>
+                    
+                    <div>
+                        <input type="radio" name="recommend" value="Yes"
+                        <label class="radio-label" for="Yes">Yes</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="recommend" value="No"
+                        <label class="radio-label" for="No">No</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" id="maybe" name="recommend" value="Maybe">
+                        <label class="radiolabel" for="Maybe">Maybe</label>
+                    </div>
+                    
+                    <div class="labels">
+                        <label for="">Language and frameworks known</label>
+                        
+                        <div>
+                            <input type="checkbox" id="C" name="language-and-framework">
+                            <label class="checkbox" for="C">C</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" id="C++" name="language-and-framework">
+                            <label class="checkbox" for="C++">C++</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" id="C#" name="language-and-framework">
+                            <label class="checkbox" for="C#">C#</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Java" name="language-and-framework">
+                            <label class="checkbox" for="Java">Java</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Python" name="language-and-framework">
+                            <label class="checkbox" for="Python">Python</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Javascript" name="language-and-framework">
+                            <label class="checkbox" for="Javascript">Javascript</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="React" name="language-and-framework">
+                            <label class="checkbox" for="React">React</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Angular" name="language-and-framework">
+                            <label class="checkbox" for="Angular">Angular</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Django" name="language-and-framework">
+                            <label class="checkbox" for="Django">Django</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Spring" name="language-and-framework">
+                            <label class="checkbox" for="Spring">Spring</label>
+                        </div>
+                    </div>
+                
+                <div class="labels">
+                    <labels for="comment"><h3>Any comments or suggestion?</h3></labels>
+                    <textarea name="" id="" cols="60" rows="5"></textarea>
+                </div>
+                
+                <button type="button"><strong>Submit</strong></button>
+
+            </form>
+        </div>
+</body>
+</html>

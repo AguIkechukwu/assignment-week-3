@@ -1,0 +1,58 @@
+.container {
+  max-width: 500px;
+  margin: 30px auto; /* Centers the form horizontally */
+  padding: 15px;
+  background-color: #fae3b9d0;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+body{
+  background-image: url(240_F_545428173_uyYWJoR9n5uJFYIWfDa2C49AzIECcU20.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(142, 194, 177, 0.26);
+}
+form label{
+  display: flex;
+  font-size: 18px;
+}
+form input{
+  width: 100%;
+  padding-top: 15px;
+}
+
+label{
+  margin-bottom: 15px;
+}
+button{
+  display: inline-block;
+  background-color: #d18d6e;
+  padding: 20px;
+  width: 465px;
+  text-align: center;
+}
+button.hover{
+  background-color: #a36f5c; /* Darker shade of tomato color on hover */
+}
+.labels{
+  margin-bottom: 10px;
+}
+h1{
+  text-align: center;
+}
+.textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: auto #ff5100;
+}
